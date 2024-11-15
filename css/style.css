@@ -1,6 +1,29 @@
 /*custom css*/
 .nav-link:hover {
-    background-color: rgba(126, 4, 85, 0.78) !important;
+    background-color: rgb(226, 27, 112) !important;
     color: white !important;
 }
-
+.horizontal{
+    width: 170px;
+    height: 5px;
+    background-color: rgb(226, 27, 112) !important;
+    opacity:0.8;
+    margin: 0 auto;
+}
+.text{
+    color: rgb(226, 27, 112);
+}
+.card-title{
+    color: rgb(226, 27, 112);
+}
+.price{
+    color: rgb(226, 27, 112);
+}
+.btn{
+    background-color: rgb(226, 27, 112);
+    opacity: 0.8;
+}
+.btn:hover {
+    background-color: rgb(226, 27, 112);
+    opacity: 2;
+}
