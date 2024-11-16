@@ -10,7 +10,7 @@
     opacity:0.8;
     margin: 0 auto;
 }
-.text{
+.fs-3{
     color: rgb(226, 27, 112);
 }
 .card-title{
@@ -26,4 +26,7 @@
 .btn:hover {
     background-color: rgb(226, 27, 112);
     opacity: 2;
+}
+.client{
+   color: rgb(226, 27, 112);
 }
