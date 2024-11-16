@@ -30,3 +30,14 @@
 .client{
    color: rgb(226, 27, 112);
 }
+.footer{
+    background-color: rgb(226, 27, 112);
+}
+.subBtn{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 05px;
+    padding: 8px;
+}
+
