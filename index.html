@@ -10,10 +10,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--date and time-->
+
+<div class="text-end me-4">
+
+    <div id="datetime"></div>
+</div>
+
+<script>
+    function updateDateTime() {
+        const now = new Date();
+        const formattedDateTime = now.toLocaleString();
+        document.getElementById('datetime').textContent = formattedDateTime;
+    }
+
+    setInterval (updateDateTime, 1000);
+    updateDateTime();
+</script>
+
 <!--Header-->
 
 <section class="shadow-sm">
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"> <img src="images/logo.png" width="160px"></a>
@@ -23,16 +41,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-4">
-                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" href="#">About</a>
+                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" href="about.html">About</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" href="#">Contact</a>
+                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" aria-disabled="true">Faq</a>
+                            <a class="nav-link active fw-bold fs-6 rounded-3 text-uppercase" href="product.html">Product</a>
+
                         </li>
                     </ul>
                 </div>
@@ -295,7 +314,6 @@
         </div>
     </div>
 </section>
-
 
 
 
